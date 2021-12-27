@@ -2,8 +2,8 @@ const config = require('config');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const express = require('express');
-const routes = require('./routes');
-const db = require('./db/db');
+const routes = require('./routes/UsersRoute');
+const db = require('./db/Database');
 
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));

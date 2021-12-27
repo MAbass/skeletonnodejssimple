@@ -1,8 +1,8 @@
 const config = require('config');
 const jwt = require('jsonwebtoken');
-const response = require('../helpers/response');
+const response = require('../helpers/Response');
 
-const User = require('../models/user')
+const User = require('../models/UserModel')
 
 
 const privateKey = config.key.privateKey;

@@ -1,5 +1,5 @@
-const sorting = require('./sorting')
-const pagination = require('./pagination')
+const sorting = require('./Sorting')
+const pagination = require('./Pagination')
 
 
 exports.getRequestOptions = function(req) {

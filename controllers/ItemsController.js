@@ -1,7 +1,7 @@
-const pagination = require('../helpers/pagination');
-const request = require('../helpers/request');
-const response = require('../helpers/response');
-const Item = require('../models/item');
+const pagination = require('../helpers/Pagination');
+const request = require('../helpers/Request');
+const response = require('../helpers/Response');
+const Item = require('../models/ItemModel');
 
 
 exports.list = function (req, res) {

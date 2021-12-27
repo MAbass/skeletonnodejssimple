@@ -1,6 +1,6 @@
 const express = require('express');
-const items = require('../../controllers/items');
-const auth = require('../../controllers/auth');
+const items = require('../../controllers/ItemsController');
+const auth = require('../../controllers/AuthController');
 
 const routes  = express.Router({ mergeParams: true });
 

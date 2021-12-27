@@ -1,7 +1,7 @@
 const express = require('express');
-const auth = require('./auth/auth');
+const auth = require('./auth/AuthRoute');
 const users = require('./users');
-const response = require('../helpers/response');
+const response = require('../helpers/Response');
 
 
 const routes  = express.Router();
